@@ -3,7 +3,7 @@ export default function HeaderContent() {
     <section id="home" className="relative min-h-screen bg-yellow-300 flex items-center justify-center text-center overflow-hidden">
       {/* Background image */}
       <img
-        src="/image/bg-masthead.jpg"
+        src="/image/test2.jpg"
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />

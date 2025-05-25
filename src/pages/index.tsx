@@ -36,10 +36,10 @@ function Team() {
 
        {show && <button
         onClick={scrollToTop}
-      className="font-sans fixed bottom-6 right-6 z-50 p-3 h-10 bg-[#343A4080] text-white rounded-md shadow-lg transition"
+      className="text-xl font-sans fixed bottom-6 right-6 z-50 px-3 h-10 bg-teal-600 text-white rounded-full shadow-lg transition"
       aria-label="Scroll to top"
     >
-      ^
+      &uarr;
     </button>}
     </div>
   )
