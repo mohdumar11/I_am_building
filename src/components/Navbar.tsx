@@ -30,6 +30,10 @@ export default function Navbar() {
       icon: <FaGithub className="w-6 h-6 text-black" />,
       href: 'https://github.com/mohdumar11',
     },
+    {
+      icon:'Sign in',
+      href:'#'
+    }
   ];
 
   useEffect(() => {
@@ -53,7 +57,7 @@ export default function Navbar() {
   return (
     <header className="bg-white fixed w-full top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-[10px] flex justify-between items-center h-[80px]">
-        <a href="#home" className="text-teal-600 text-3xl font-bold">Hey I am building</a>
+        <a href="#home" className="text-teal-600 text-2xl font-bold">Hey I am building</a>
 
         {/* Hamburger (Mobile) */}
         <button
@@ -65,9 +69,9 @@ export default function Navbar() {
 
         {/* Desktop Nav Links */}
         <nav className="hidden md:flex gap-6 items-center">
-          {navItems.map(item => (
+          {navItems.map((item,index) => (
             <a
-              key={item.href}
+              key={index}
               href={item.href}
               onClick={() => setActiveLink(item.href)}
               className={`text-xl font-medium hover:text-teal-600 transition-colors duration-200 ${

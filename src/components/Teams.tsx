@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const teamMembers = [
   {
-    name: "Saif Ansari",
+    name: "Anubhav Singh Guleria",
     description: "The Quirky outspoken know-it-all.",
     image: "/image/portfolio-1.jpg",
-    link: "#",
+    link: "https://www.linkedin.com/in/anubhavsguleria/",
   },
   {
     name: "Mohd. Umar",
@@ -14,16 +14,16 @@ const teamMembers = [
     link: "https://www.linkedin.com/in/mohd-umar-7b16a6196/",
   },
   {
-    name: "Sadaqat Hussain",
+    name: "Nitin Ranjan",
     description: "Life is music, ink, nature and food.",
     image: "/image/portfolio-2.jpg",
-    link: "#",
+    link: "https://www.linkedin.com/in/nitin-ranjan-here/",
   },
   {
-    name: "Md Asif Ansari",
-    description: "Hardworking, Enlighten with his inner energy",
+    name: "Anish Aggarwal",
+    description: "Code, Coffee and Adventure.",
     image: "/image/portfolio-1.jpg",
-    link: "#",
+    link: "https://www.linkedin.com/in/anishaggarwal24/",
   },
 ];
 

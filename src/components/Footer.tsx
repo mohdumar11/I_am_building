@@ -39,7 +39,7 @@ export default function FooterIcons() {
         </div>
       </div>
 
-      <p className="text-gray-600">Project Hey-I-am-Building</p>
+      <p className="text-gray-600">Team Hey-I-am-Building | Contact Us</p>
       <p className="text-gray-600">&copy; Mohd Umar 2025</p>
     </footer>
   );
