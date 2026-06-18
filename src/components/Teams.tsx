@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const teamMembers = [
   {
-    name: "Mohd Umar (Mercedes-Benz)",
+    name: "Mohd Umar (Sabre)",
     description: "Seldom have men seen him, seldom they shall.",
     image: "/image/portfolio-2.jpg",
     bgImage: "/image/umar_img-2.jpg",
     link: "https://www.linkedin.com/in/mohd-umar-7b16a6196/",
   },
   {
-    name: "Anubhav Singh Guleria (Flipkart)",
+    name: "Anubhav Singh Guleria (Uber)",
     description: "The Quirky outspoken know-it-all.",
     image: "/image/portfolio-1.jpg",
     bgImage: "/image/anubhav.jpg",
